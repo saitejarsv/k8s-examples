@@ -1,8 +1,8 @@
 apiVersion: apps/v1
 kind: DaemonSet
 metadata:
-  name: busybox-test
-  namespace: kube-system
+  name: busybox-saitezaa
+  namespace: saitezaa
 spec:
   selector:
     matchLabels:
